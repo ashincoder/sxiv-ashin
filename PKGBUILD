@@ -23,7 +23,7 @@ validpgpkeys=()
 
 pkgver() {
   cd sxiv-ashin
-  printf "20170325.35633d4.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+  printf "26.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 build() {
